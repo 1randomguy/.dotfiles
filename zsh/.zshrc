@@ -70,9 +70,11 @@ ZSH_THEME="eastwood"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git sudo colorize history-substring-search you-should-use)
 
 source $ZSH/oh-my-zsh.sh
+#install zsh-syntax-highlighting package from system package manager first
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # User configuration
 

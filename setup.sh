@@ -29,5 +29,5 @@ done
 
 echo ""
 echo "##### ALL DONE"
-echo "RELOAD TERMINAL"
+echo "RELOAD TERMINAL (exec zsh)"
 exec zsh
