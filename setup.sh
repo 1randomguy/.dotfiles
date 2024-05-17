@@ -21,9 +21,9 @@ else
 	echo "Please install $REQ manually"
 fi
 
-# install font
-# mkdir -p ~/.local/share/fonts
-# cd ~/.local/share/fonts && curl -fLO https://github.com/ryanoasis/nerd-fonts/raw/HEAD/patched-fonts/FiraCode/Regular/FiraCodeNerdFont-Regular.otf
+if [ ! -f "$HOME/.gitconfig" ]; then
+   cp git/.gitconfig $HOME
+fi
 
 # all folders to include
 app_configs=(
