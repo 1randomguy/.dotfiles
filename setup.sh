@@ -5,7 +5,7 @@ git submodule init
 git submodule update
 
 # install required programs
-REQ="zsh stow"
+REQ="zsh stow neovim python3-neovim"
 
 echo ""
 echo "Installing prerequisites"
